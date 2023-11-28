@@ -1,0 +1,150 @@
+*{
+   text-decoration: none;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: 0.32px;
+   color: #434455;
+   background-color: #FFFFFF
+}
+
+ul {
+   list-style-type: none;
+}
+h2 {
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.11;
+   letter-spacing: 0.72px;
+   text-transform: capitalize;
+   text-align: center;
+   
+}
+.main-page {
+   font-size: 20px;
+   color: #2E2F42;
+   letter-spacing: 0.4px;
+   font-weight: 500;
+   line-height:1.2;
+}
+
+address{
+   font-style: normal;
+}
+address a {
+   font-weight: 400;
+   color: #434455;
+   font-style: normal;
+}
+
+address a:hover {
+   color: #404BBF;
+}
+
+address a:focus {
+   color: #404BBF;
+}
+
+
+.logo {
+   font-family: "Raleway", sans-serif;
+   font-size: 18px;
+   color:#4d5ae5;
+   font-weight: 700;
+   text-transform: uppercase;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+}
+
+span {
+   color: #2E2F42;
+}
+
+.hero {
+   background-color: #2E2F42;
+}
+
+.hero > h1 {
+   font-family: Roboto;
+   font-size: 56px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 1.12px;
+   color: #FFFFFF;
+}
+
+button {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   background-color: #4D5AE5;
+   color: #FFFFFF;
+   cursor: pointer;
+   line-height: 1.5;
+   letter-spacing:0.04em ;
+
+}
+
+button:hover {
+   background-color: #404BBF;
+}
+button:focus{
+   background-color: #404BBF;
+}
+
+.menu > li > a {
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   letter-spacing: 0.32px;
+   color: #2E2F42;
+
+}
+.menu a:hover {
+   color: #404BBF;
+}
+.menu a:active{
+   color: #404bbf;
+   text-decoration: underline;
+}
+.menu a:focus {
+   color: #404bbf;
+   text-decoration: underline;
+}
+.our-team {
+   background-color: #F4F4FD;
+}
+.member {
+ background-color:  #FFFFFF;
+}
+.title{
+  color: #2e2f42;
+}
+.main-page{
+   color: #2E2F42;
+}
+.description{
+   font-size: 16px;
+}
+footer{
+   background-color: #2E2F42;
+}
+footer a {
+   color: #F4F4FD;
+   letter-spacing: 0.54px;
+}
+footer p {
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #F4F4FD;
+}
+footer span {
+   color: #f4f4fd;
+}
