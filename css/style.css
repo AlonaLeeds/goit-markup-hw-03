@@ -1,8 +1,20 @@
-*{
-   text-decoration: none;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+   padding: 0;
+   margin: 0;
 }
 
 body {
+  
    font-family: "Roboto", sans-serif;
    font-size: 16px;
    font-style: normal;
@@ -10,27 +22,42 @@ body {
    line-height: 1.5;
    letter-spacing: 0.32px;
    color: #434455;
-   background-color: #FFFFFF
+   background-color: #FFFFFF;
+   /* приклеєний футер */
+   min-heigh: 100vh;
+   display: flex;
+   flex-direction: column;
+
+}
+.container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 40px;
+   /* justify-content: center; */
+
+   width: 100%;
+   max-width: 1158px;
+   height: auto;
+   margin: 0 auto;
+   padding-bottom: 32px;
 }
 
-ul {
-   list-style-type: none;
+img{
+   display: flex;
 }
+
 h2 {
    font-size: 36px;
    font-weight: 700;
    line-height: 1.11;
    letter-spacing: 0.72px;
    text-transform: capitalize;
-   text-align: center;
-   
-}
-.main-page {
-   font-size: 20px;
-   color: #2E2F42;
-   letter-spacing: 0.4px;
-   font-weight: 500;
-   line-height:1.2;
+   text-align: center; 
+   padding-top: 120px; 
+   padding-bottom: 72px;
+
 }
 
 address{
@@ -49,8 +76,11 @@ address a:hover {
 address a:focus {
    color: #404BBF;
 }
-
-
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
 .logo {
    font-family: "Raleway", sans-serif;
    font-size: 18px;
@@ -61,7 +91,7 @@ address a:focus {
    letter-spacing: 0.03em;
 }
 
-span {
+.logo span {
    color: #2E2F42;
 }
 
@@ -69,7 +99,7 @@ span {
    background-color: #2E2F42;
 }
 
-.hero > h1 {
+h1 {
    font-family: Roboto;
    font-size: 56px;
    font-style: normal;
@@ -81,6 +111,7 @@ span {
 }
 
 button {
+   display: flex;
    font-family: "Roboto", sans-serif;
    font-weight: 500;
    background-color: #4D5AE5;
@@ -97,6 +128,10 @@ button:hover {
 button:focus{
    background-color: #404BBF;
 }
+.menu li{
+   display: inline;
+   margin-right: 40px;
+}
 
 .menu > li > a {
    font-family: Roboto;
@@ -105,7 +140,7 @@ button:focus{
    font-weight: 500;
    letter-spacing: 0.32px;
    color: #2E2F42;
-
+   
 }
 .menu a:hover {
    color: #404BBF;
@@ -118,11 +153,40 @@ button:focus{
    color: #404bbf;
    text-decoration: underline;
 }
+
+.main-page {
+   font-size: 20px;
+   color: #2E2F42;
+   letter-spacing: 0.4px;
+   font-weight: 500;
+   line-height: 1.2;
+}
+.our-values ul {
+   display: flex;
+   gap: 24px;
+   padding: 120px 0;
+   
+}
 .our-team {
    background-color: #F4F4FD;
+   
 }
-.member {
- background-color:  #FFFFFF;
+.our-team-description {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   background-color:  #FFFFFF;
+   text-align: center;
+   border-radius: 4px;
+   
+   /*flex: 0 0 calc((100% - 80px) / 2); */
+   /* Равное распределение карточек по двум в ряду */
+   /* max-width: calc((100% - 80px) / 2);
+   margin-bottom: 20px; */
+}
+.our-team-description li{
+   border: 1px solid black;
 }
 .title{
   color: #2e2f42;
@@ -133,6 +197,20 @@ button:focus{
 .description{
    font-size: 16px;
 }
+
+.our-portfolio {
+   padding: 50px 0;
+}
+.our-portfolio-description {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 24px;
+}
+.our-portfolio-description li{
+   border: 1px solid black;
+}
+
 footer{
    background-color: #2E2F42;
 }
@@ -145,6 +223,6 @@ footer p {
    letter-spacing: 0.02em;
    color: #F4F4FD;
 }
-footer span {
+.footer span {
    color: #f4f4fd;
 }
