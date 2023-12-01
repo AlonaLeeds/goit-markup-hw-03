@@ -14,7 +14,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
-  
    font-family: "Roboto", sans-serif;
    font-size: 16px;
    font-style: normal;
@@ -42,7 +41,9 @@ h1 {
    letter-spacing: 1.12px;
    color: #FFFFFF;
    padding: 188px 0;
-   max-width: 496px;
+   max-width: 1158px;
+   padding: 188px;
+   border:1px solid #4d5ae5;
 }
 h2 {
    font-size: 36px;
@@ -55,11 +56,12 @@ h2 {
    padding-bottom: 72px;
 }
 /* #region */
+.address div{
+   display: inline-block;
+   margin-left: 40px;
+}
 .header-container {
    display: flex;
-   justify-content:flex-end;
-   align-items: center;
-
    gap: 40px;
    width: 100%;
    max-width: 1158px;
@@ -113,9 +115,12 @@ h2 {
    text-decoration: underline;
 }
 .address{
+   display: inline-flex;
    font-style: normal;
+   
 }
-.address a {
+.address-mail,
+.address-phone {
    font-weight: 400;
    color: #434455;
    font-style: normal;
@@ -140,9 +145,10 @@ h2 {
 }
 .hero {
    background-color: #2E2F42;
+
 }
 
-button {
+.button {
    display: flex;
    font-family: "Roboto", sans-serif;
    font-weight: 500;
@@ -217,6 +223,7 @@ button:focus{
 
 footer{
    background-color: #2E2F42;
+   padding: 20px 0;
 }
 footer a {
    color: #F4F4FD;
