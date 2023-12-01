@@ -193,9 +193,7 @@ button:focus{
    /* max-width: calc((100% - 80px) / 2);
    margin-bottom: 20px; */
 }
-.our-team-description li{
-   border: 1px solid black;
-}
+
 .title{
   color: #2e2f42;
 }
@@ -215,9 +213,7 @@ button:focus{
    justify-content: space-between;
    gap: 24px;
 }
-.our-portfolio-description li{
-   border: 1px solid black;
-}
+
 
 footer{
    background-color: #2E2F42;
