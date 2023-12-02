@@ -72,13 +72,10 @@ h2 {
   max-width: 118px;
   margin: 0 auto;
   /* Центрирование по горизонтали */
-  padding: 0 20px;
+  padding: 0 15px 0 15px;
+
 }
 
-nav .address div {
-  display: inline-block;
-  margin-left: 40px;
-}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
