@@ -144,7 +144,7 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   gap: 24px;
-  /* gap: 40px; */
+  
   width: 100%;
   max-width: 1158px;
   height: auto;
@@ -184,6 +184,15 @@ button:hover {
 button:focus {
   background-color: #404bbf;
 }
+
+.visually-hidden{
+  visibility: hidden; /* спрятать заголовок */
+}
+.container-list{
+  padding: 120px 0;
+  display: flex;
+}
+
 
 .our-values-decription {
   display: flex;
