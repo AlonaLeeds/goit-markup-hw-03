@@ -151,6 +151,7 @@ h2 {
   margin: 0 auto;
   padding: 0;
 }
+ 
 .hero {
   padding: 188px 0 188px;
   background-color: #2e2f42;
@@ -188,7 +189,7 @@ button:focus {
 .visually-hidden{
   visibility: hidden; /* спрятать заголовок */
 }
-.container-list{
+.container-value-list{
   padding: 120px 0;
   display: flex;
 }
@@ -212,6 +213,8 @@ button:focus {
 }
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
+
 }
 .our-team-description {
   width: 100%;
@@ -228,6 +231,7 @@ button:focus {
    margin-bottom: 20px; */
 }
 .our-team-description li {
+   width: calc((100% - 72px) / 4);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
