@@ -47,7 +47,7 @@ h1 {
   letter-spacing: 1.12px;
   color: #ffffff;
   padding: 188px 0;
-  max-width: 1158px;
+  max-width: 496px;
   padding: 188px;
 }
 h2 {
@@ -73,7 +73,6 @@ h2 {
   margin: 0 auto;
   /* Центрирование по горизонтали */
   padding: 0 15px 0 15px;
-
 }
 
 .logo {
@@ -98,7 +97,6 @@ h2 {
   margin: 0 auto;
   padding: 0;
 }
-
 
 .menu {
   list-style: none;
@@ -153,6 +151,7 @@ h2 {
   padding: 0;
 }
 .hero {
+  padding: 188px 0 188px;
   background-color: #2e2f42;
 }
 
@@ -161,7 +160,9 @@ h2 {
    justify-content: center;
    align-items: center; */
   padding: 16px 32px;
-
+  display: block;
+  min-width: 169px;
+  height: 56px;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
