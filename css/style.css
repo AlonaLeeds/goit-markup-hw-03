@@ -143,6 +143,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  gap: 24px;
   /* gap: 40px; */
   width: 100%;
   max-width: 1158px;
