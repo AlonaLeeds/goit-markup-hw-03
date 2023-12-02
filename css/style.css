@@ -144,14 +144,14 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   gap: 24px;
-  
+
   width: 100%;
   max-width: 1158px;
   height: auto;
   margin: 0 auto;
   padding: 0;
 }
- 
+
 .hero {
   padding: 188px 0 188px;
   background-color: #2e2f42;
@@ -186,14 +186,13 @@ button:focus {
   background-color: #404bbf;
 }
 
-.visually-hidden{
+.visually-hidden {
   visibility: hidden; /* спрятать заголовок */
 }
-.container-value-list{
+.container-value-list {
   padding: 120px 0;
   display: flex;
 }
-
 
 .our-values-decription {
   display: flex;
@@ -209,18 +208,18 @@ button:focus {
   letter-spacing: 0.4px;
   font-weight: 500;
   line-height: 1.2;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .our-team {
   background-color: #f4f4fd;
   padding: 120px 0;
-
 }
 .our-team-description {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 24px;
   background-color: #ffffff;
   text-align: center;
   border-radius: 4px;
@@ -230,8 +229,9 @@ button:focus {
   /* max-width: calc((100% - 80px) / 2);
    margin-bottom: 20px; */
 }
-.our-team-description li {
-   width: calc((100% - 72px) / 4);
+.our-team-list {
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -240,7 +240,13 @@ button:focus {
 .our-team-description p {
   padding-bottom: 32px;
 }
-
+.member {
+  padding: 32px 0;
+}
+.member-main-page {
+  text-align: center;
+  margin-bottom: 8px;
+}
 .title {
   color: #2e2f42;
 }
