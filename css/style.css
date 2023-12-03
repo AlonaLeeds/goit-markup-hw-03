@@ -205,10 +205,10 @@ button:focus {
   overflow: hidden;
   /* ? спрятать заголовок */
 }
-.container-value-list {
+/* .container-value-list {
   display: flex;
-  padding: 120px 0;
-}
+  padding: 120px 0; */
+
 .our-values-decription {
   display: flex;
   gap: 24px;
