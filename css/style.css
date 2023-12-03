@@ -196,16 +196,15 @@ button:focus {
   visibility: hidden;
   pointer-events: none;
   position: absolute;
-  /* ? спрятать заголовок */
+  visibility: hidden; /* ? спрятать заголовок */
 }
 .container-value-list {
   display: flex;
-  gap: 24px;
+  padding: 120px 0;
 }
 .our-values-decription {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 .our-values-list {
   width: calc((100% - 72px) / 4);
