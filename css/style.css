@@ -259,6 +259,9 @@ button:focus {
 }
 
 /* section 4 */
+.our-portfolio {
+  padding: 120px 0 120px 0;
+}
 .our-portfolio-description {
   display: flex;
   flex-wrap: wrap;
@@ -272,6 +275,8 @@ button:focus {
 .our-portfolio-description img,
 .our-portfolio-description p {
   padding-bottom: 32px;
+}
+.app-description {
 }
 
 /* footer */
