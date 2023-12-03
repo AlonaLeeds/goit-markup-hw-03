@@ -193,7 +193,10 @@ button:focus {
   padding: 120px 0;
 }
 .visually-hidden {
-  visibility: hidden; /* ? спрятать заголовок */
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  /* ? спрятать заголовок */
 }
 .container-value-list {
   display: flex;
