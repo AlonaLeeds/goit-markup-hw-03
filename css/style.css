@@ -182,8 +182,8 @@ button:focus {
 
 /* section 2 */
 .our-values {
-  display: flex;
-  gap: 24px;
+  /* display: flex;
+  gap: 24px; */
   padding: 120px 0;
 }
 .visually-hidden {
@@ -199,7 +199,7 @@ button:focus {
   overflow: hidden;
 }
 
-.our-values-decription {
+.our-values-description {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
