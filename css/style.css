@@ -90,7 +90,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 118px;
+  /* max-width: 118px; */
   margin: 0 auto;
   /* Центрирование по горизонтали */
   padding: 0 15px 0 15px;
@@ -264,7 +264,7 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 48px;
+  column-gap: 24px;
 }
 .our-portfolio-description li {
   row-gap: 48px;
@@ -294,10 +294,12 @@ footer {
   padding: 100px 0;
 }
 footer a {
-  display: inline-block;
   color: #f4f4fd;
   letter-spacing: 0.54px;
   margin-bottom: 16px;
+}
+.footer .logo {
+  display: inline-block;
 }
 footer p {
   line-height: 1.5;
