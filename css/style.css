@@ -75,7 +75,7 @@ h2 {
   max-width: 1158px;
   height: auto;
   margin: 0 auto;
- padding: 0 15px 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .description {
@@ -85,7 +85,6 @@ h2 {
 /* header */
 .main-header {
   border-bottom: 1px solid #e7e9fc;
-  
 }
 .navbar {
   display: flex;
@@ -105,9 +104,6 @@ h2 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 76px;
-  margin-left: 186px;
-  
-  
 }
 .logo span {
   color: #2e2f42;
