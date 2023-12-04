@@ -184,7 +184,7 @@ button:focus {
 .our-values {
   display: flex;
   gap: 24px;
-  /* padding: 120px 0; */
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
