@@ -203,15 +203,12 @@ button:focus {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  /* ? спрятать заголовок */
 }
-/* .container-value-list {
-  display: flex;
-  padding: 120px 0; */
-
 .our-values-decription {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  padding: 0;
 }
 .our-values-list {
   width: calc((100% - 72px) / 4);
