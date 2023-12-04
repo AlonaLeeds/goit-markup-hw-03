@@ -108,21 +108,13 @@ h2 {
 .logo span {
   color: #2e2f42;
 }
-.header-container {
-  display: flex;
-  gap: 40px;
-  width: 100%;
-  max-width: 1158px;
-  height: auto;
-  margin: 0 auto;
-  padding: 0;
-}
 .menu {
   list-style: none;
   display: flex;
+  gap: 40px;
 }
-.menu li {
-  margin-right: 40px;
+.navigation {
+  padding: 24px 0 24px;
 }
 .menu a {
   font-family: Roboto;
@@ -161,7 +153,7 @@ h2 {
   background-color: #2e2f42;
 }
 .button {
-  /* display: inline-flex;
+  /* display: flex;
    justify-content: center;
    align-items: center; */
   padding: 16px 32px;
@@ -208,7 +200,6 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding: 0;
 }
 .our-values-list {
   width: calc((100% - 72px) / 4);
@@ -270,12 +261,10 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 24px;
-  padding-bottom: 120px;
+  gap: 48px;
 }
 .our-portfolio-description li {
   row-gap: 48px;
-  /* border: 1px solid var(--CORNFLOWER, #e7e9fc); */
 }
 .our-portfolio-description li:first-child {
   width: calc((100% - 48px) / 3);
@@ -302,8 +291,10 @@ footer {
   padding: 100px 0;
 }
 footer a {
+  display: inline-block;
   color: #f4f4fd;
   letter-spacing: 0.54px;
+  margin-bottom: 16px;
 }
 footer p {
   line-height: 1.5;
