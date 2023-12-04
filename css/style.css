@@ -182,7 +182,9 @@ button:focus {
 
 /* section 2 */
 .our-values {
-  padding: 120px 0;
+  display: flex;
+  gap: 24px;
+  /* padding: 120px 0; */
 }
 .visually-hidden {
   position: absolute;
@@ -196,6 +198,7 @@ button:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .our-values-decription {
   display: flex;
   flex-wrap: wrap;
