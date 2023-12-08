@@ -70,10 +70,6 @@ h1 {
   max-width: 496px;
 }
 h2 {
-  /* display: flex;
- justify-content: center;
- flex-direction: column;
-  align-items: center; */
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -251,23 +247,18 @@ button:focus {
   margin: auto;
 }
 .our-team-description {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 24px;
+  justify-content: space-around;
+  column-gap: 24px;
+  width: 100%;
   background-color: #ffffff;
-  text-align: center;
   border-radius: 4px;
-
-  /*flex: 0 0 calc((100% - 80px) / 2); */
-  /* Равное распределение карточек по двум в ряду */
-  /* max-width: calc((100% - 80px) / 2);
-   margin-bottom: 20px; */
+  text-align: center;
 }
 .our-team-list {
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
+  row-gap: calc((100% - 72px) / 4);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -292,16 +283,12 @@ button:focus {
 .our-portfolio-description {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   column-gap: 24px;
+}
+.our-portfolio-description-list {
   row-gap: 48px;
 }
-/* .our-portfolio-description-list {
-  row-gap: 48px;
-}
-.our-portfolio-description li:first-child {
-   width: calc((100% - 48px) / 3);
-} */
 
 .our-portfolio-description img,
 .our-portfolio-description p {
@@ -317,22 +304,24 @@ button:focus {
 /* footer */
 footer {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
+  flex-direction: row;
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.footer .container {
+  max-width: 264px;
+  margin: 0;
+}
 footer a {
-  display: inline-block;
-  color: #f4f4fd;
+  color: #4d5ae5;
+  text-transform: uppercase;
   letter-spacing: 0.54px;
   margin-bottom: 16px;
 }
-/* .footer-logo {
-  
-} */
+
 footer p {
+  display: block;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
