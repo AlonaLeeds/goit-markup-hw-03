@@ -1,10 +1,8 @@
 *,
 *::before,
 *::after {
-
   /* box-sizing: border-box; */
   text-decoration: none;
-  
 }
 /* reset */
 h1,
@@ -17,7 +15,8 @@ p {
   padding: 0;
 }
 
-ul,ol{
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -70,9 +69,8 @@ h1 {
   padding: 188px 0;
   max-width: 496px;
 }
-h2
- {
- /* display: flex;
+h2 {
+  /* display: flex;
  justify-content: center;
  flex-direction: column;
   align-items: center; */
@@ -84,7 +82,7 @@ h2
   text-align: center;
   padding-top: 120px;
   padding-bottom: 72px;
-   color: #2e2f42;
+  color: #2e2f42;
   margin-bottom: 72px;
 }
 
@@ -119,7 +117,7 @@ h2
   color: #2e2f42;
 }
 .menu {
-  display:inline-flex;
+  display: inline-flex;
   align-items: start;
   gap: 40px;
 }
@@ -143,10 +141,9 @@ h2
   text-decoration: underline;
 }
 .address {
-
   font-style: normal;
 }
-.address-block{
+.address-block {
   display: flex;
   align-items: end;
   gap: 40px;
@@ -165,22 +162,22 @@ h2
 /* section 1*/
 
 .hero {
-  flex-direction: column ;
+  flex-direction: column;
   text-align: center;
   padding: 188px 0 188px;
   background-color: #2e2f42;
 }
-.hero .container{
-  flex-direction: column ;
+.hero .container {
+  flex-direction: column;
 }
-.hero .container>h1{
+.hero .container > h1 {
   max-width: 496px;
   padding: 0;
 }
 
 .button {
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   padding: 16px 32px;
   display: block;
   min-width: 169px;
@@ -209,7 +206,6 @@ button:focus {
 
 /* section 2 */
 .our-values {
-  
   padding: 120px 0;
 }
 .visually-hidden {
@@ -247,7 +243,7 @@ button:focus {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.title{
+.title {
   display: flex;
   flex-direction: column; /* Изменить с строки на столбец */
   align-items: center;
@@ -289,7 +285,6 @@ button:focus {
   color: #2e2f42;
 }
 
-
 /* section 4 */
 .our-portfolio {
   padding: 120px 0 120px 0;
@@ -299,13 +294,14 @@ button:focus {
   flex-wrap: wrap;
   justify-content: space-between;
   column-gap: 24px;
+  row-gap: 48px;
 }
-.our-portfolio-description-list {
+/* .our-portfolio-description-list {
   row-gap: 48px;
 }
 .our-portfolio-description li:first-child {
-  /* width: calc((100% - 48px) / 3); */
-}
+   width: calc((100% - 48px) / 3);
+} */
 
 .our-portfolio-description img,
 .our-portfolio-description p {
@@ -328,6 +324,7 @@ footer {
   padding: 100px 0;
 }
 footer a {
+  display: inline-block;
   color: #f4f4fd;
   letter-spacing: 0.54px;
   margin-bottom: 16px;
@@ -336,7 +333,6 @@ footer a {
   
 } */
 footer p {
-  
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
