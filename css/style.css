@@ -313,13 +313,14 @@ footer {
   margin: 0;
 }
 footer a {
+  display: inline-block;
   color: #4d5ae5;
   text-transform: uppercase;
   letter-spacing: 0.54px;
   margin-bottom: 16px;
 }
 
-footer p {
+.footer-descrioption {
   display: block;
   font-style: normal;
   line-height: 1.5;
