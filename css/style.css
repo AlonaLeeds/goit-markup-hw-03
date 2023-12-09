@@ -97,7 +97,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.menu-list {
+.menu-li {
   padding: 24px 0;
 }
 .menu a {
