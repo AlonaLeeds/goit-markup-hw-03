@@ -97,6 +97,9 @@ img {
   display: flex;
   gap: 40px;
 }
+.navigation {
+  padding: 24px 0;
+}
 .menu a {
   font-family: Roboto;
   font-size: 16px;
@@ -105,6 +108,7 @@ img {
   letter-spacing: 0.32px;
   color: #2e2f42;
 }
+
 .menu a:hover {
   color: #404bbf;
 }
