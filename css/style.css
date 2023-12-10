@@ -116,7 +116,6 @@ img {
 .menu a:active,
 .menu a:focus {
   color: #404bbf;
-  text-decoration: underline;
 }
 .address {
   font-style: normal;
@@ -130,7 +129,6 @@ img {
   font-weight: 400;
   color: #434455;
   font-style: normal;
-  padding-left: 35px;
 }
 .address a:hover,
 .address a:focus {
@@ -255,6 +253,7 @@ button:focus {
   text-align: center;
   margin-bottom: 8px;
   color: #2e2f42;
+  font-weight: 500;
 }
 
 /* section 4 */
@@ -268,10 +267,9 @@ button:focus {
   row-gap: 48px;
 }
 .our-portfolio-list {
-  width: ((100% - 48px)/3);
+  width: calc ((100% - 48px)/3);
 }
 .app-description {
-  font-weight: 500;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -279,15 +277,9 @@ button:focus {
 
 /* footer */
 footer {
-  display: flex;
-  flex-direction: row;
   background-color: #2e2f42;
-  padding: 100px 0;
 }
-.footer .container {
-  max-width: 264px;
-  margin: 0 156px;
-}
+
 footer a {
   display: inline-block;
   color: #4d5ae5;
